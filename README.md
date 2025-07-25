@@ -3,13 +3,13 @@
 * diagnostics, and validation techniques to ensure the robustness of results.
 
 🔍 Objective
-To develop a regression model that accurately estimates the insurance premium (charges) using predictors such as:
-Age
-Sex
-Body Mass Index (BMI)
-Smoking status
-Number of children
-Region
+##### To develop a regression model that accurately estimates the insurance premium (charges) using predictors such as:
+* Age
+* Sex
+* Body Mass Index (BMI)
+* Smoking status
+* Number of children
+* Region
 🎯 Goals
 Understand the relationship between insurance charges and predictors.
 Identify the most influential variables affecting the cost of insurance.
