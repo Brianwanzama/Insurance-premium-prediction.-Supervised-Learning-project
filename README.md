@@ -1,4 +1,4 @@
-##### Insurance Premium Prediction and Model Diagnostics
+### Insurance Premium Prediction and Model Diagnostics
 * This project involves building a Multiple Linear Regression Model (MLRM) to predict individual insurance charges based on several demographic and lifestyle factors. The project emphasizes model selection, 
 * diagnostics, and validation techniques to ensure the robustness of results.
 
