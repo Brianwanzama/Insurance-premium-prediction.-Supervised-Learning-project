@@ -1,10 +1,38 @@
-#### Insurance Premium Prediction and Model Diagnostics
-This project uses Multiple Linear Regression to predict insurance charges based on demographic and lifestyle factors (age, sex, BMI, children, smoking status, and region).
-#### Features
-- MLRM model fitting
-- Model diagnostics (QQ plot, Durbin-Watson, VIF, Shapiro-Wilk, Breusch-Pagan)
-- Conclusions and interpretations
-#### How to Run
-Open the `.ipynb` file in Jupyter Notebook and run the cells. Make sure `pandas`, `statsmodels`, `matplotlib`, `scipy`, and `sklearn` are installed.
-#### Data
-Dataset: `insurance.csv` (included in the `/data/` folder)
+Insurance Premium Prediction and Model Diagnostics
+This project involves building a Multiple Linear Regression Model (MLRM) to predict individual insurance charges based on several demographic and lifestyle factors. The project emphasizes model selection, diagnostics, and validation techniques to ensure the robustness of results.
+🔍 Objective
+To develop a regression model that accurately estimates the insurance premium (charges) using predictors such as:
+Age
+Sex
+Body Mass Index (BMI)
+Smoking status
+Number of children
+Region
+🎯 Goals
+Understand the relationship between insurance charges and predictors.
+Identify the most influential variables affecting the cost of insurance.
+Evaluate model performance using multiple diagnostic tools.
+Ensure the model meets the key assumptions of linear regression.
+🧪 Methodology
+1. Exploratory Data Analysis (EDA)
+Summary statistics
+Correlation matrix
+Visualization of relationships
+2. Model Building
+Fitting a full MLRM using Statsmodels
+Feature selection using Mallows' Cp, AIC, and BIC
+Cross-validation to assess model generalization
+3. Model Diagnostics
+Multicollinearity: Variance Inflation Factor (VIF)
+Residual Normality: Shapiro-Wilk Test, QQ Plots
+Homoscedasticity: Breusch-Pagan Test
+Autocorrelation: Durbin-Watson Statistic
+Influential Observations: Cook’s Distance, Leverage Plots
+4. Model Validation
+20-fold Cross-Validation
+Adjusted R-squared and RMSE evaluation
+📊 Key Tools & Libraries
+Python (Pandas, NumPy, Matplotlib, Seaborn)
+statsmodels for regression and diagnostics
+scikit-learn for cross-validation
+scipy for statistical tests
