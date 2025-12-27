@@ -1,39 +1,50 @@
 ### Insurance Premium Prediction and Model Diagnostics
-* This project involves building a Multiple Linear Regression Model (MLRM) to predict individual insurance charges based on several demographic and lifestyle factors. The project emphasizes model selection, 
-* diagnostics, and validation techniques to ensure the robustness of results.
-
-🔍 Objective
-##### To develop a regression model that accurately estimates the insurance premium (charges) using predictors such as:
-* Age
-* Sex
-* Body Mass Index (BMI)
-* Smoking status
-* Number of children
-* Region
-🎯 Goals
-* Understand the relationship between insurance charges and predictors.
-* Identify the most influential variables affecting the cost of insurance.
-* Evaluate model performance using multiple diagnostic tools.
-* Ensure the model meets the key assumptions of linear regression.
-🧪 Methodology
-1. Exploratory Data Analysis (EDA)
-* Summary statistics
-* Correlation matrix
-* Visualization of relationships
-3. Model Building
-* Fitting a full MLRM using Statsmodels
-* Cross-validation to assess model generalization
-4. Model Diagnostics
-* Multicollinearity: Variance Inflation Factor (VIF)
-* Residual Normality: Shapiro-Wilk Test, QQ Plots
-* Homoscedasticity: Breusch-Pagan Test
-* Autocorrelation: Durbin-Watson Statistic
-* Influential Observations: Cook’s Distance, Leverage Plots
-5. Model Validation
-* 20-fold Cross-Validation
-* Adjusted R-squared and RMSE evaluation
-📊 Key Tools & Libraries
-* Python (Pandas, NumPy, Matplotlib, Seaborn)
-* statsmodels for regression and diagnostics
-* scikit-learn for cross-validation
-scipy for statistical tests
+- This project involves building a **Multiple Linear Regression Model (MLRM)** to predict individual insurance charges based on demographic and lifestyle characteristics. The analysis emphasizes **model selection, diagnostic testing, and validation** to ensure statistical robustness and adherence to classical regression assumptions.
+---
+## Objective
+To develop a regression model that accurately estimates insurance premiums (charges) using the following predictors:
+- Age  
+- Sex  
+- Body Mass Index (BMI)  
+- Smoking status  
+- Number of children  
+- Region  
+---
+## Goals
+- Understand the relationship between insurance charges and explanatory variables.  
+- Identify the most influential factors affecting insurance costs.  
+- Evaluate model performance using rigorous diagnostic tools.  
+- Ensure compliance with the key assumptions of linear regression.  
+---
+## Methodology
+### Exploratory Data Analysis (EDA)
+- Summary statistics  
+- Correlation matrix  
+- Visualization of variable relationships  
+---
+### Model Building
+- Estimation of a full Multiple Linear Regression Model using **statsmodels**  
+- Cross-validation to assess out-of-sample generalization  
+---
+### Model Diagnostics
+- **Multicollinearity:** Variance Inflation Factor (VIF)  
+- **Residual normality:** Shapiro–Wilk test, Q–Q plots  
+- **Homoscedasticity:** Breusch–Pagan test  
+- **Autocorrelation:** Durbin–Watson statistic  
+- **Influential observations:** Cook’s distance, leverage plots  
+---
+###  Model Validation
+- 20-fold cross-validation  
+- Performance evaluation using:
+  - Adjusted R-squared  
+  - Root Mean Squared Error (RMSE)  
+---
+## Key Tools & Libraries
+- **Python:** pandas, NumPy  
+- **Visualization:** Matplotlib, Seaborn  
+- **Econometrics:** statsmodels  
+- **Model validation:** scikit-learn  
+- **Statistical testing:** SciPy  
+---
+## Project Focus
+This project emphasizes **statistical rigor, model diagnostics, and interpretability** rather than purely predictive performance making it suitable as an applied econometrics and statistical modeling portfolio project.
